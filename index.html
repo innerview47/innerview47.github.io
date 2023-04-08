@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amethysta&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navigation">
+        <div class="nav-items">
+          <div class="nav-item js-popup-toggler" popup-content="about">
+            <span>About</span>
+          </div>
+          <div class="nav-item js-popup-toggler" popup-content="works">
+            <span>Works</span>
+          </div>
+          <div class="nav-item js-popup-toggler" popup-content="contacts">
+            <span>Contacts</span>
+          </div>
+        </div>
+      </nav>
+      <div class="logo-container">
+        <img class="logo js-popup-toggler" src="src/assets/logo.png" alt="logo">
+      </div>
+      <span class="js-typing-text heading"></span>
+      <div class="name-container">
+        <div class="name">
+          <span class="gname">John Karlo</span> Soriano,
+          <b>&#60; <span class="js-whoami whoami">Web Developer</span> &#47;&#62;</b>
+        </div>
+      </div>
+      <div class="popup-content-wrap js-popup-content-wrap">
+        <div class="popup-close js-popup-close">X</div>
+        <div class="popup-content js-popup-content" popup-content="about">
+          <div class="about popup-content-body">
+            <div class="image-loader rounded">
+              <img src="src/assets/dp.jpg" alt="me">
+            </div>
+            <div class="about-text">
+              <p>
+                Hello there! My name is John Karlo, but my friends and family call me Jake (idk, not even related to my actual name), and I'm a Web Developer based in PH.
+                I specialize in frontend development, and I'm passionate about using my skills to create meaningful and impactful projects.
+              </p>
+              <p>
+                I've been working in the industry for 7 years and some months. During that time, I've had the opportunity to work
+                with a variety of clients and projects, ranging from informative to e-commerce applications.
+              </p>
+              <p>
+                I'm always looking for new challenges and opportunities to learn and grow, and I'm excited to see
+                where my skills will take me next.
+              </p>
+              <p>
+                When I'm not working, you can find me doing stuff I haven't the idea to do. My curiosity takes me to where I need to go - probably not.
+              </p>
+              <p>
+                Thank you for taking the time to learn more about me. If you have any questions or would like to discuss a potential project,
+                please don't hesitate to reach out!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="popup-content js-popup-content" popup-content="works">
+          <div class="works popup-content-body">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img class="" src="https://play-lh.googleusercontent.com/1QumqcYBlLjhZrrvhXDl2_P8XFqFR9g98lr_b-5EKbOT_C3nZ9vgqhFsC6lEbZcw3v-U=w240-h480-rw" alt="">
+              </div>
+              <a class="portfolio-title" href="https://play.google.com/store/apps/details?id=com.leni2022&hl=en&gl=US&pli=1" target="_blank">
+                Angat Buhay
+              </a>
+              <div class="portfolio-description">
+                <p>
+                  Previously known as Leni 2022 app. The app features a user-friendly interface that makes it easy for volunteers to find opportunities
+                  to get involved and track their progress. They can view upcoming events and RSVP, receive reminders and notifications, and access important
+                  campaign resources and information.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popup-content js-popup-content" popup-content="contacts">
+          <div class="contacts popup-content-body">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/jake-soriano-3a3521164/" target="_blank">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://github.com/innerview47" target="_blank">GitHub</a>
+              </li>
+              <li>
+                <a href="tel:+639283728494">+63 928 372 8494</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
